@@ -66,7 +66,6 @@ int main(int argc,char* argv[]) {
             if(!flag) { 
                 update_data(data_image);
                 build_output(argv[1],data_image,symbol_table,lines);
-                print_data(data_image);
             }
         }
     }
